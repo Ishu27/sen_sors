@@ -1,0 +1,20 @@
+---
+name: Rules
+description: "Rule which sends an email when an email from johndoe@gmail.com is received"
+pack: email
+enabled: true
+trigger:
+  type: email.smtp.message
+  parameters: {}
+criteria:
+  trigger.from:
+    pattern: ishuwww084@gmail.com
+    type: contains
+action:
+  ref: core.sendmail
+  parameters:
+    cmd: echo "Hello from the sensor"	
+    body: 'We received an email'
+    to: janedoe@gmail.com
+    from: ishuwww084@gmail.com
+    subject: 'Email Received'

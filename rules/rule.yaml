@@ -11,10 +11,7 @@ criteria:
     pattern: ishuwww084@gmail.com
     type: contains
 action:
-  ref: core.sendmail
+  ref: core.local
   parameters:
     cmd: echo "Hello from the sensor"	
-    body: 'We received an email'
-    to: mine.ishan@gmail.com
-    from: ishuwww084@gmail.com
-    subject: 'Email Received'
+  

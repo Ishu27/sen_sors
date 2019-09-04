@@ -7,7 +7,7 @@ trigger:
   type: email.smtp.message
   parameters: {}
 criteria:
-  trigger:
+  trigger.from:
     pattern: ishuwww084@gmail.com
     type: contains
 action:

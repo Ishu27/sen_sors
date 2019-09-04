@@ -15,6 +15,6 @@ action:
   parameters:
     cmd: echo"Hello from the sensor"	
     body: 'We received an email'
-    to: janedoe@gmail.com
+    to: mine.ishan@gmail.com
     from: ishuwww084@gmail.com
     subject: 'Email Received'

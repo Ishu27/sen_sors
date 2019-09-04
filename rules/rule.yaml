@@ -13,7 +13,7 @@ criteria:
 action:
   ref: core.sendmail
   parameters:
-    cmd: echo"Hello from the sensor"	
+    cmd: echo "Hello from the sensor"	
     body: 'We received an email'
     to: mine.ishan@gmail.com
     from: ishuwww084@gmail.com

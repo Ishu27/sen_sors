@@ -1,5 +1,5 @@
 ---
-name: rul
+name: rule
 description: "Rule which sends an email when an email from johndoe@gmail.com is received"
 pack: sense
 enabled: true
@@ -7,7 +7,7 @@ trigger:
   type: email.smtp.message
   parameters: {}
 criteria:
-  trigger.from:
+  trigger:
     pattern: ishuwww084@gmail.com
     type: contains
 action:

@@ -13,6 +13,7 @@ criteria:
 action:
   ref: core.local
   parameters:
-    cmd: 
-      default: "Hello from the sensor"	
-  
+    cmd: echo "Hello from the sensor"
+      	
+ 
+
